@@ -7,7 +7,7 @@ interrupt key\main.o: ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h
 interrupt key\main.o: ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h
 interrupt key\main.o: ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h
 interrupt key\main.o: ../Drivers/CMSIS/Include/core_cm4.h
-interrupt key\main.o: D:\Software\2\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+interrupt key\main.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 interrupt key\main.o: ../Drivers/CMSIS/Include/cmsis_version.h
 interrupt key\main.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
 interrupt key\main.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
@@ -15,7 +15,7 @@ interrupt key\main.o: ../Drivers/CMSIS/Include/mpu_armv7.h
 interrupt key\main.o: ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h
 interrupt key\main.o: ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h
 interrupt key\main.o: ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-interrupt key\main.o: D:\Software\2\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+interrupt key\main.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 interrupt key\main.o: ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h
 interrupt key\main.o: ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h
 interrupt key\main.o: ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h

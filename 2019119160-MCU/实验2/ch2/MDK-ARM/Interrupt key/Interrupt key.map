@@ -1,4 +1,4 @@
-Component: ARM Compiler 5.06 update 6 (build 750) Tool: armlink [4d35ed]
+Component: ARM Compiler 5.06 update 7 (build 960) Tool: armlink [4d3601]
 
 ==============================================================================
 
@@ -466,13 +466,14 @@ Section Cross References
     _get_argv_nomalloc.o(.text) refers (Special) to hrguard.o(.text) for __heap_region$guard
     _get_argv_nomalloc.o(.text) refers to defsig_rtmem_outer.o(.text) for __rt_SIGRTMEM
     _get_argv_nomalloc.o(.text) refers to sys_command.o(.text) for _sys_command_string
-    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$00000002) for __rt_lib_shutdown_cpp_1
-    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$00000007) for __rt_lib_shutdown_fp_trap_1
-    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$0000000F) for __rt_lib_shutdown_heap_1
-    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$00000010) for __rt_lib_shutdown_return
-    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$0000000A) for __rt_lib_shutdown_signal_1
-    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$00000004) for __rt_lib_shutdown_stdio_1
-    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$0000000C) for __rt_lib_shutdown_user_alloc_1
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$00000004) for __rt_lib_shutdown_cpp_1
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$00000002) for __rt_lib_shutdown_fini_1
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$00000009) for __rt_lib_shutdown_fp_trap_1
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$00000011) for __rt_lib_shutdown_heap_1
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$00000012) for __rt_lib_shutdown_return
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$0000000C) for __rt_lib_shutdown_signal_1
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$00000006) for __rt_lib_shutdown_stdio_1
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$0000000E) for __rt_lib_shutdown_user_alloc_1
     sys_command.o(.text) refers (Special) to use_no_semi.o(.text) for __I$use$semihosting
     sys_command.o(.text) refers (Special) to indicate_semi.o(.text) for __semihosting_library_function
     defsig_rtmem_outer.o(.text) refers to defsig_rtmem_inner.o(.text) for __rt_SIGRTMEM_inner
@@ -966,11 +967,12 @@ Image Symbol Table
     .ARM.Collect$$libshutdown$$00000000      0x08000208   Section        2  libshutdown.o(.ARM.Collect$$libshutdown$$00000000)
     .ARM.Collect$$libshutdown$$00000002      0x0800020a   Section        0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000002)
     .ARM.Collect$$libshutdown$$00000004      0x0800020a   Section        0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000004)
-    .ARM.Collect$$libshutdown$$00000007      0x0800020a   Section        0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000007)
-    .ARM.Collect$$libshutdown$$0000000A      0x0800020a   Section        0  libshutdown2.o(.ARM.Collect$$libshutdown$$0000000A)
+    .ARM.Collect$$libshutdown$$00000006      0x0800020a   Section        0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000006)
+    .ARM.Collect$$libshutdown$$00000009      0x0800020a   Section        0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000009)
     .ARM.Collect$$libshutdown$$0000000C      0x0800020a   Section        0  libshutdown2.o(.ARM.Collect$$libshutdown$$0000000C)
-    .ARM.Collect$$libshutdown$$0000000F      0x0800020a   Section        0  libshutdown2.o(.ARM.Collect$$libshutdown$$0000000F)
-    .ARM.Collect$$libshutdown$$00000010      0x0800020a   Section        2  libshutdown2.o(.ARM.Collect$$libshutdown$$00000010)
+    .ARM.Collect$$libshutdown$$0000000E      0x0800020a   Section        0  libshutdown2.o(.ARM.Collect$$libshutdown$$0000000E)
+    .ARM.Collect$$libshutdown$$00000011      0x0800020a   Section        0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000011)
+    .ARM.Collect$$libshutdown$$00000012      0x0800020a   Section        2  libshutdown2.o(.ARM.Collect$$libshutdown$$00000012)
     .ARM.Collect$$rtentry$$00000000          0x0800020c   Section        0  __rtentry.o(.ARM.Collect$$rtentry$$00000000)
     .ARM.Collect$$rtentry$$00000002          0x0800020c   Section        0  __rtentry2.o(.ARM.Collect$$rtentry$$00000002)
     .ARM.Collect$$rtentry$$00000004          0x0800020c   Section        6  __rtentry4.o(.ARM.Collect$$rtentry$$00000004)
@@ -1054,6 +1056,7 @@ Image Symbol Table
     __ARM_use_no_argv                        0x00000000   Number         0  main.o ABSOLUTE
     __ARM_exceptions_init                     - Undefined Weak Reference
     __alloca_initialize                       - Undefined Weak Reference
+    __arm_fini_                               - Undefined Weak Reference
     __arm_preinit_                            - Undefined Weak Reference
     __cpp_initialize__aeabi_                  - Undefined Weak Reference
     __cxa_finalize                            - Undefined Weak Reference
@@ -1113,13 +1116,14 @@ Image Symbol Table
     __rt_lib_init_stdio_1                    0x08000207   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$00000025)
     __rt_lib_init_user_alloc_1               0x08000207   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$0000000C)
     __rt_lib_shutdown                        0x08000209   Thumb Code     0  libshutdown.o(.ARM.Collect$$libshutdown$$00000000)
-    __rt_lib_shutdown_cpp_1                  0x0800020b   Thumb Code     0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000002)
-    __rt_lib_shutdown_fp_trap_1              0x0800020b   Thumb Code     0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000007)
-    __rt_lib_shutdown_heap_1                 0x0800020b   Thumb Code     0  libshutdown2.o(.ARM.Collect$$libshutdown$$0000000F)
-    __rt_lib_shutdown_return                 0x0800020b   Thumb Code     0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000010)
-    __rt_lib_shutdown_signal_1               0x0800020b   Thumb Code     0  libshutdown2.o(.ARM.Collect$$libshutdown$$0000000A)
-    __rt_lib_shutdown_stdio_1                0x0800020b   Thumb Code     0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000004)
-    __rt_lib_shutdown_user_alloc_1           0x0800020b   Thumb Code     0  libshutdown2.o(.ARM.Collect$$libshutdown$$0000000C)
+    __rt_lib_shutdown_cpp_1                  0x0800020b   Thumb Code     0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000004)
+    __rt_lib_shutdown_fini_1                 0x0800020b   Thumb Code     0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000002)
+    __rt_lib_shutdown_fp_trap_1              0x0800020b   Thumb Code     0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000009)
+    __rt_lib_shutdown_heap_1                 0x0800020b   Thumb Code     0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000011)
+    __rt_lib_shutdown_return                 0x0800020b   Thumb Code     0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000012)
+    __rt_lib_shutdown_signal_1               0x0800020b   Thumb Code     0  libshutdown2.o(.ARM.Collect$$libshutdown$$0000000C)
+    __rt_lib_shutdown_stdio_1                0x0800020b   Thumb Code     0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000006)
+    __rt_lib_shutdown_user_alloc_1           0x0800020b   Thumb Code     0  libshutdown2.o(.ARM.Collect$$libshutdown$$0000000E)
     __rt_entry                               0x0800020d   Thumb Code     0  __rtentry.o(.ARM.Collect$$rtentry$$00000000)
     __rt_entry_presh_1                       0x0800020d   Thumb Code     0  __rtentry2.o(.ARM.Collect$$rtentry$$00000002)
     __rt_entry_sh                            0x0800020d   Thumb Code     0  __rtentry4.o(.ARM.Collect$$rtentry$$00000004)
@@ -1280,10 +1284,10 @@ Memory Map of the image
 
     0x08000000   0x08000000   0x0000018c   Data   RO            3    RESET               startup_stm32l431xx.o
     0x0800018c   0x0800018c   0x00000008   Code   RO          381  * !!!main             c_w.l(__main.o)
-    0x08000194   0x08000194   0x00000034   Code   RO          506    !!!scatter          c_w.l(__scatter.o)
-    0x080001c8   0x080001c8   0x0000001a   Code   RO          507    !!handler_copy      c_w.l(__scatter_copy.o)
+    0x08000194   0x08000194   0x00000034   Code   RO          508    !!!scatter          c_w.l(__scatter.o)
+    0x080001c8   0x080001c8   0x0000001a   Code   RO          509    !!handler_copy      c_w.l(__scatter_copy.o)
     0x080001e2   0x080001e2   0x00000002   PAD
-    0x080001e4   0x080001e4   0x0000001c   Code   RO          508    !!handler_zi        c_w.l(__scatter_zi.o)
+    0x080001e4   0x080001e4   0x0000001c   Code   RO          510    !!handler_zi        c_w.l(__scatter_zi.o)
     0x08000200   0x08000200   0x00000002   Code   RO          403    .ARM.Collect$$libinit$$00000000  c_w.l(libinit.o)
     0x08000202   0x08000202   0x00000004   Code   RO          408    .ARM.Collect$$libinit$$00000001  c_w.l(libinit2.o)
     0x08000206   0x08000206   0x00000000   Code   RO          411    .ARM.Collect$$libinit$$00000004  c_w.l(libinit2.o)
@@ -1309,11 +1313,12 @@ Memory Map of the image
     0x08000208   0x08000208   0x00000002   Code   RO          466    .ARM.Collect$$libshutdown$$00000000  c_w.l(libshutdown.o)
     0x0800020a   0x0800020a   0x00000000   Code   RO          474    .ARM.Collect$$libshutdown$$00000002  c_w.l(libshutdown2.o)
     0x0800020a   0x0800020a   0x00000000   Code   RO          476    .ARM.Collect$$libshutdown$$00000004  c_w.l(libshutdown2.o)
-    0x0800020a   0x0800020a   0x00000000   Code   RO          479    .ARM.Collect$$libshutdown$$00000007  c_w.l(libshutdown2.o)
-    0x0800020a   0x0800020a   0x00000000   Code   RO          482    .ARM.Collect$$libshutdown$$0000000A  c_w.l(libshutdown2.o)
+    0x0800020a   0x0800020a   0x00000000   Code   RO          478    .ARM.Collect$$libshutdown$$00000006  c_w.l(libshutdown2.o)
+    0x0800020a   0x0800020a   0x00000000   Code   RO          481    .ARM.Collect$$libshutdown$$00000009  c_w.l(libshutdown2.o)
     0x0800020a   0x0800020a   0x00000000   Code   RO          484    .ARM.Collect$$libshutdown$$0000000C  c_w.l(libshutdown2.o)
-    0x0800020a   0x0800020a   0x00000000   Code   RO          487    .ARM.Collect$$libshutdown$$0000000F  c_w.l(libshutdown2.o)
-    0x0800020a   0x0800020a   0x00000002   Code   RO          488    .ARM.Collect$$libshutdown$$00000010  c_w.l(libshutdown2.o)
+    0x0800020a   0x0800020a   0x00000000   Code   RO          486    .ARM.Collect$$libshutdown$$0000000E  c_w.l(libshutdown2.o)
+    0x0800020a   0x0800020a   0x00000000   Code   RO          489    .ARM.Collect$$libshutdown$$00000011  c_w.l(libshutdown2.o)
+    0x0800020a   0x0800020a   0x00000002   Code   RO          490    .ARM.Collect$$libshutdown$$00000012  c_w.l(libshutdown2.o)
     0x0800020c   0x0800020c   0x00000000   Code   RO          382    .ARM.Collect$$rtentry$$00000000  c_w.l(__rtentry.o)
     0x0800020c   0x0800020c   0x00000000   Code   RO          384    .ARM.Collect$$rtentry$$00000002  c_w.l(__rtentry2.o)
     0x0800020c   0x0800020c   0x00000006   Code   RO          396    .ARM.Collect$$rtentry$$00000004  c_w.l(__rtentry4.o)
@@ -1384,7 +1389,7 @@ Memory Map of the image
     0x08001158   0x08001158   0x0000000a   Code   RO          461    x$fpl$fpinit        fz_wm.l(fpinit.o)
     0x08001162   0x08001162   0x00000002   PAD
     0x08001164   0x08001164   0x00000040   Data   RO          374    .constdata          system_stm32l4xx.o
-    0x080011a4   0x080011a4   0x00000020   Data   RO          504    Region$$Table       anon$$obj.o
+    0x080011a4   0x080011a4   0x00000020   Data   RO          506    Region$$Table       anon$$obj.o
 
 
     Execution Region RW_IRAM2 (Exec base: 0x10000000, Load base: 0x080011dc, Size: 0x00000000, Max: 0x00004000, ABSOLUTE)
